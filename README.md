@@ -1,3 +1,3 @@
-= Vim syntax file for Finesse
+# vim-finesse
 
-Still not mature.
+[Finesse](http://www.gwoptics.org/finesse) syntax highlighting for Vim.
