@@ -4,4 +4,4 @@
 
 # Installation
 
-Put tree contents in `~/.vim/`. If using Pathogen, put tree in `~/.vim/bundles/`.
+Put tree contents in `~/.vim/`. If using Pathogen, put tree in `~/.vim/bundle/`.
