@@ -35,7 +35,7 @@ highlight link num Number
 syn match var /\$\w\+/
 highlight link var Identifier
 
-let s:components = [ 'l', 'm', 's', 'bs', 'isol', 'mod', 'lens', 'pd\d*', 'ad', 'shot', 'qshot', 'bp', 'cp', 'guoy', 'beam' ]
+let s:components = [ 'l', 'm[12]\?', 's', 'bs[12]\?', 'isol', 'mod', 'lens', 'pd\d*', 'ad', 'shot', 'qshot', 'bp', 'cp', 'guoy', 'beam' ]
 
 " Components.
 let s:component_regex = 'syn match component /\(^\s*\)\@<=\(' . join(s:components, '\|') . '\)\(\s\+\|$\)\@=/'
